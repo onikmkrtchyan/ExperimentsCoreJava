@@ -6,6 +6,11 @@ public class Integers {
         Integer a = 1;
         int c = 1;
 
+        int Integer = 24; // output 24
+//        Integer int = 24 ; // getting error
+//        Integer Integer = 24; // output 24
+        System.out.println(Integer);
+
         Scanner scanner = new Scanner(System.in);
         Integer b = scanner.nextInt();
 
