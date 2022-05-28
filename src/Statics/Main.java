@@ -1,4 +1,4 @@
-package statics;
+package Statics;
 
 public class Main {
     //in byte code this block moves to constructor

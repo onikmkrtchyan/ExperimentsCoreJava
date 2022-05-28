@@ -1,3 +1,4 @@
+package Statics;
 
 public class StaticAndNotStaticDiff {
 

@@ -1,3 +1,5 @@
+package ParentAndChild;
+
 /**
  * Interesting example done with Artak
  */
@@ -10,29 +12,29 @@ class Main2 {
 public class Parent {
     public Parent() {
         System.out.println("Parents constructor");
-//        if (this instanceof Child) {
-//            ((Child) this).init2();
+//        if (this instanceof ParentAndChild.Child) {
+//            ((ParentAndChild.Child) this).init2();
 //            System.out.println("This is child in parent constructor");
 //        }
         init();
     }
 
      void init() {
-        System.out.println("Parent init");
+        System.out.println("ParentAndChild.Parent init");
     }
 }
 
 class Child extends Parent {
      Child() {
         super();
-        System.out.println("Child constructor");
+        System.out.println("ParentAndChild.Child constructor");
         init();
     }
 
      void init() {
 //        System.out.print("super.init();");
 //        super.init();
-        System.out.println("Child init");
+        System.out.println("ParentAndChild.Child init");
     }
 
     void init2() {

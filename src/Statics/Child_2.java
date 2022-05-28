@@ -1,4 +1,4 @@
-package statics;
+package Statics;
 
 public class Child_2 extends Child_1 {
 
