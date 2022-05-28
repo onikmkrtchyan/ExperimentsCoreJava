@@ -1,3 +1,5 @@
+package Strings;
+
 public class StringVsStringBuilder {
     public static void main(String[] args) {
         StringBuilder one = new StringBuilder();

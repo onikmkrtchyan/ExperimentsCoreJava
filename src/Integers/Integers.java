@@ -1,3 +1,5 @@
+package Integers;
+
 import java.util.Scanner;
 
 public class Integers {

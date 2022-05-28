@@ -1,15 +1,15 @@
 package ParentAndChild;
 
-public class Parent {
+public class ParentSecondExamole {
 
     public static void main(String[] args) {
 //        Child child1 = (Child)new Parent(); classCastException can't cast parent object to Child type
-        Child child = new Child();
-        Parent parent = new Child();
+        ChildSecondExample childSecondExample = new ChildSecondExample();
+        ParentSecondExamole parentSecondExamole = new ChildSecondExample();
 
-        parent.function();
-        child.function();
-        child.functionNoOverride();
+        parentSecondExamole.function();
+        childSecondExample.function();
+        childSecondExample.functionNoOverride();
 //        parent.functionNoOverride(); cant see child methods which is no overridden
 
     }

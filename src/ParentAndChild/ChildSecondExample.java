@@ -1,6 +1,6 @@
 package ParentAndChild;
 
-public class Child extends Parent{
+public class ChildSecondExample extends ParentSecondExamole {
     @Override
      void function() {
         System.out.println("Hello from CHILD");

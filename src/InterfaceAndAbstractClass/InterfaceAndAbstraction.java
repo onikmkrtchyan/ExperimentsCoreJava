@@ -1,4 +1,6 @@
-public class Main0{
+package InterfaceAndAbstractClass;
+
+public class InterfaceAndAbstraction {
     public static void main(String[] args) {
         Child2 child = new Child2();
 //        child.getHeight();
