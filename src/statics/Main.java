@@ -11,6 +11,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        new Main();//prints true because it created, when Main's object created (it belongs to object)
         new Parent().testOverride();
         new Child_1().testOverride();
 
